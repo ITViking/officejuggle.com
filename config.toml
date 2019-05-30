@@ -1,4 +1,4 @@
-baseURL = "https://officejuggle.com/"
+baseURL = "https://dreamy-tereshkova-f6ea5f.netlify.com/"
 languageCode = "en-us"
 title = "OFFICEJUGGLE"
 disableKinds = ["taxonomy", "taxonomyTerm"]
