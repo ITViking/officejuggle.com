@@ -1,0 +1,4 @@
+baseURL = "https://officejuggle.com/"
+languageCode = "en-us"
+title = "OFFICEJUGGLE"
+disableKinds = ["taxonomy", "taxonomyTerm"]
