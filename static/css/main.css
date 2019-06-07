@@ -1,12 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Montserrat:200,300,400,500,600|Roboto:100,300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Roboto:100,200,300,400,500,600&display=swap');
 body {
     margin: 0;
 }
 
-h2{
+.logo-container h2{
     font-family: 'Josefin Sans';
     color: #a6a6a6;
     margin-bottom: 0;
+}
+
+p {
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+h2 {
+    font-family: "Roboto";
+    color: black;
+    font-size: 1.2em;
+    font-weight: 400;
 }
 
 .introduction {
@@ -14,16 +26,8 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 83vh;
+    height: 92vh;
 }
-
-/* .introduction .stairs-image {
-    padding: 0;
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: contain;
-    position: absolute;
-} */
 
 .introductory-box {
     top: 100px;
@@ -41,7 +45,6 @@ h2{
 }
 
 .introductory-box h2 {
-    font-family: sans-serif;
     font-weight: 300;
     margin: 2em;
     color: white;
@@ -71,7 +74,7 @@ h2{
 }
 
 .navigation {
-    background-color: black;
+    background-color: white;
 }
 
 .bold-information {
@@ -143,7 +146,7 @@ h2{
 .point-text {
     margin-top: -2em;
     color: white;
-    font-family: "roboto";
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 300;
     text-align: center;
@@ -167,3 +170,46 @@ h2{
 .point h1 {
     margin: 0;
 }
+
+.why {
+    display: flex;
+    flex-direction: row;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.why h2 {
+    color: #f88c8c;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+h3 {
+    color: #f88c8c;
+    margin: 0;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.our-services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.our-services-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+    margin: 60px 70px;
+}
+
+.our-services-box h2 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
