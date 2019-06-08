@@ -347,7 +347,7 @@ h4 {
     margin: 0;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
     .logo-container {
         margin: 0;
     }
@@ -408,6 +408,8 @@ h4 {
 
     input.text-field {
         padding: 5px;
+        height: 20px;
+        width: 70vw;
         margin: 5px;
     }
 
