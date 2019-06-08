@@ -53,14 +53,20 @@ h2 {
     font-size: 1.8em;
 }
 
-.introductory-box button {
+button {
     border: none;
     color: black;
     text-align: center;
     background-color: #f88c8c;
     font-size: 1.5em;
     font-weight: 600;
-    padding: 1.2em 2em;
+    padding: 1.1em 1.2em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #EB7F7F;
+    transition: background-color 1000ms;
 }
 
 .introductory-box p {
@@ -217,6 +223,58 @@ h2 {
     background: -webkit-linear-gradient(rgba(250, 250, 250, 0.7), rgba(219, 219, 219, 0.7));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.lets-juggle {
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.lets-juggle button {
+    margin: 40px;
+}
+
+form {
+    width: 100%;
+}
+
+.basis-information {
+    display: flex;
+    flex-direction: column;
+}
+
+input.text-field {
+    padding: 10px;
+    margin: 10px;
+}
+
+.section-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.location-information {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.location-information span {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.location-information span p {
+    margin: 1px 7px;
+}
+
+textarea {
+    margin-top: 10px;
 }
 
 .column {
