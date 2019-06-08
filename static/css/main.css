@@ -194,6 +194,15 @@ h2 {
     margin-bottom: 0;
 }
 
+.section-header h2::after {
+    content: "";
+    display: block;
+    width: 16%;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+
 .section-row {
     display: flex;
     flex-direction: row;
