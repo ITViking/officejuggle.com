@@ -215,3 +215,26 @@ h3 {
     margin-bottom: 0px;
 }
 
+.contact-information {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 60px;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.information p {
+    margin: 0 10px;
+}
+
+h4 {
+    font-family: "Roboto";
+    font-weight: 400;
+    margin: 0;
+}
+
