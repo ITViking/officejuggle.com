@@ -8,7 +8,7 @@ body {
 
 .logo-container h2{
     font-family: 'Josefin Sans';
-    color: #a6a6a6;
+    color: white;
     margin-bottom: 0;
     font-weight: 600;
     font-size: 1.5em;
@@ -32,6 +32,10 @@ h2 {
     background-size: cover;
     background-position: center;
     height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .introductory-box {
@@ -46,7 +50,7 @@ h2 {
     font-family: 'Josefin Sans';
     margin: 0.1em;
     color: white;
-    font-size: 5em;
+    font-size: 8em;
 }
 
 .introductory-box h2 {
@@ -76,14 +80,6 @@ button:hover {
     color: white;
 }
 
-.yellow-line {
-    display: block;
-    background-color: #ffbd59;
-    width: 50%;
-    height: 1em;
-    margin-bottom: 3em;
-}
-
 .navigation {
     background-color: white;
 }
@@ -95,6 +91,7 @@ button:hover {
 }
 
 .logo-container {
+    margin-top: -8em;
     margin-left: 3em;
 }
 
@@ -170,13 +167,13 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgba(248,140,140, 0.34);
+    color: rgba(248,140,140, 0.6);
     font-family: 'Josefin Sans';
     font-size: 3em;
     height: 3em;
     width: 3em;
     border-radius: 50%;
-    border: 0.1em solid rgba(248,140,140, 0.34);
+    border: 0.1em solid rgba(248,140,140, 0.6);
 }
 
 .point h1 {
@@ -219,16 +216,6 @@ button:hover {
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%
-}
-
-.header-reflection {
-    font-weight: 500;
-    font-size: 2.5em;
-    margin: 0;
-    margin-top: -20px;
-    background: -webkit-linear-gradient(rgba(250, 250, 250, 0.7), rgba(219, 219, 219, 0.7));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .lets-juggle {
@@ -386,11 +373,6 @@ h4 {
     .section-header h2 {
         font-size: 1.5em;
         margin-bottom: 0;
-    }
-
-    .header-reflection {
-        font-size: 2em;
-        margin-top: -15px;
     }
 
     .our-services {

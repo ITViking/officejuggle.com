@@ -1,9 +1,16 @@
 {{ define "main" }}
     <section class="introduction">
         {{ $stairs := "images/stairs.jpg" | absURL }}
+        <div class="logo-container">
+            <div class="dots-container">
+                <span class="dot dot1"></span>
+                <span class="dot dot2"></span>
+                <span class="dot dot3"></span>
+            </div>
+            <h2>OFFICEJUGGLE</h2>
+        </div>
         <!-- <img class="stairs-image" src="{{ $stairs }}" alt="an architecht office with stairs in the foreground"> -->
         <div class="introductory-box">
-            <div class="yellow-line"></div>
             <h1>WE JUGGLE TO FIND</h1>
             <h1>YOU THE IDEAL OFFICE.</h1>
 
@@ -15,7 +22,6 @@
     <section class="our-services">
         <div class="section-header">
                 <h2>OUR SERVICES</h2>
-                <p class="header-reflection">SERVICES</p>
         </div>
         <div class="section-row">
             <div class="our-services-box">
@@ -45,8 +51,7 @@
     </section>
     <section id="lets-juggle" class="lets-juggle">
             <div class="section-header">
-                    <h2>LET'S JUGGLE...</h2>
-                    <p class="header-reflection">JUGGLE</p>
+                    <h2>LET'S JUGGLE</h2>
             </div>
             <form action="https://mailthis.to/philip.dein@gmail.com" method="post">
                 <div class="section-row">
@@ -160,7 +165,6 @@
     <section class="why">
         <div class="section-header">
                 <h2>WHY AN OFFICEBROKER?</h2>
-                <p class="header-reflection">WHY</p>
         </div>
         <div class="section-row">
             <div class="column">
