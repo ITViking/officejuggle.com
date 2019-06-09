@@ -35,7 +35,6 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .introductory-box {
@@ -91,8 +90,8 @@ button:hover {
 }
 
 .logo-container {
-    margin-top: -8em;
-    margin-left: 3em;
+    margin-top: -9em;
+    margin-left: 85em;
 }
 
 .dots-container {
@@ -237,6 +236,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 3em;
 }
 
 .basis-information {
@@ -245,8 +245,12 @@ form {
 }
 
 input.text-field {
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
+    height: 1.5em;
+    width: 220px;
+    font-size: 1.2em;
+    font-family: "Roboto";
 }
 
 .section-column {
@@ -272,6 +276,10 @@ input.text-field {
 
 textarea {
     margin-top: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+    height: 280px;
+    width: 380px;
 }
 
 .column {
@@ -336,11 +344,42 @@ h4 {
 
 @media only screen and (max-width: 420px) {
     .logo-container {
-        margin: 0;
+        margin-top: -5em;
+        margin-left: 11em;
+    }
+
+    .logo-container h2{
+        font-weight: 600;
+        font-size: 1.2em;
+    }
+
+    .dots-container {
+        height: 60px;
+        margin-left: 130px;
+        margin-bottom: -25px;
+    }
+
+    .dot {
+        width: 20px;
+        height: 20px;
+    }
+
+    .dot1{
+        margin-bottom: 15px;
+        margin-right: -10px;
+    }
+
+    .dot2 {
+        margin-bottom: 37px;
+    }
+
+    .dot3 {
+        margin-top: 40px;
+        margin-left: -15px;
     }
 
     .introduction {
-        height: 60vh;
+        height: 50vh;
     }
 
     .introductory-box {
@@ -348,11 +387,12 @@ h4 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-top: -3em;
     }
 
     .introductory-box h1 {
         margin: 0 0;
-        font-size: 1.5em;
+        font-size: 1.8em;
         text-align: center;
     }
 
@@ -390,7 +430,7 @@ h4 {
 
     input.text-field {
         padding: 5px;
-        height: 20px;
+        height: 30px;
         width: 70vw;
         margin: 5px;
     }

@@ -21,7 +21,7 @@
     </section>
     <section class="our-services">
         <div class="section-header">
-                <h2>OUR SERVICES</h2>
+            <h2>OUR SERVICES</h2>
         </div>
         <div class="section-row">
             <div class="our-services-box">
@@ -50,75 +50,75 @@
         </div>
     </section>
     <section id="lets-juggle" class="lets-juggle">
-            <div class="section-header">
-                    <h2>LET'S JUGGLE</h2>
-            </div>
-            <form action="https://mailthis.to/philip.dein@gmail.com" method="post">
-                <div class="section-row">
-                    <div class="basis-information">
-                        <input class="text-field" type="text" name="text" placeholder="name">
-                        <input class="text-field" type="email" name="email" placeholder="email">
-                        <input class="text-field" type="text" name="company" placeholder="company">
-                        <input class="text-field" type="number" name="number" placeholder="no. of people">
+        <div class="section-header">
+            <h2>LET'S JUGGLE</h2>
+        </div>
+        <form action="https://mailthis.to/philip.dein@gmail.com" method="post">
+            <div class="section-row">
+                <div class="basis-information">
+                    <input class="text-field" type="text" name="text" placeholder="name">
+                    <input class="text-field" type="email" name="email" placeholder="email">
+                    <input class="text-field" type="text" name="company" placeholder="company">
+                    <input class="text-field" type="number" name="number" placeholder="no. of people">
+                </div>
+                <div class="section-column">
+                    <div class="location-information">
+                        <h2>Closed or open space</h2>
+                        <span>
+                            <input type="radio" name="space" value="Open space">
+                            <p>Open space</p>
+                        </span>
+                        <span>
+                            <input type="radio" name="space" value="Close office">
+                            <p>Closed office</p>
+                        </span>
+                        <span>
+                            <input type="radio" name="space" value="Let's find out">
+                            <p>Let's find out</p>
+                        </span>
+                            <!-- Redirect to a page after recaptcha -->
+                        <input type="hidden" name="_after" value="{{ .Site.BaseURL }}">
+                        <!-- Honeypot (to catch comment spam bots) -->
+                        <input type="hidden" name="_honeypot" value="">
                     </div>
-                    <div class="section-column">
-                        <div class="location-information">
-                            <h2>Closed or open space</h2>
-                            <span>
-                                <input type="radio" name="space" value="Open space">
-                                <p>Open space</p>
-                            </span>
-                            <span>
-                                <input type="radio" name="space" value="Close office">
-                                <p>Closed office</p>
-                            </span>
-                            <span>
-                                <input type="radio" name="space" value="Let's find out">
-                                <p>Let's find out</p>
-                            </span>
-                             <!-- Redirect to a page after recaptcha -->
-                            <input type="hidden" name="_after" value="{{ .Site.BaseURL }}">
-                            <!-- Honeypot (to catch comment spam bots) -->
-                            <input type="hidden" name="_honeypot" value="">
-                        </div>
-                        <div class="location-information">
-                            <h2>Closed or open space</h2>
-                            <span>
-                                <input type="radio" name="space" value="Kbh K">
-                                <p>Kbh K</p>
-                            </span>
-                            <span>
-                                <input type="radio" name="space" value="Amager">
-                                <p>Amager</p>
-                            </span>
-                            <span>
-                                <input type="radio" name="space" value="Valby">
-                                <p>Valby</p>
-                            </span>
-                            <span>
-                                <input type="radio" name="space" value="Østerbro/Norhavn">
-                                <p>Østerbro/Norhavn</p>
-                            </span>
-                            <span>
-                                <input type="radio" name="space" value="Vesterbro">
-                                <p>Vesterbro</p>
-                            </span>
-                            <span>
-                                <input type="radio" name="space" value="Nørrebro">
-                                <p>Nørrebro</p>
-                            </span>
-                            <span>
-                                <input type="radio" name="space" value="Hellerup/Charlottenlund">
-                                <p>Hellerup/Charlottenlund</p>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="extra-information">
-                        <textarea name="other-requirements" id="" cols="30" rows="20" placeholder="other requirements?" style="resize: none"></textarea>
+                    <div class="location-information">
+                        <h2>Closed or open space</h2>
+                        <span>
+                            <input type="radio" name="space" value="Kbh K">
+                            <p>Kbh K</p>
+                        </span>
+                        <span>
+                            <input type="radio" name="space" value="Amager">
+                            <p>Amager</p>
+                        </span>
+                        <span>
+                            <input type="radio" name="space" value="Valby">
+                            <p>Valby</p>
+                        </span>
+                        <span>
+                            <input type="radio" name="space" value="Østerbro/Norhavn">
+                            <p>Østerbro/Norhavn</p>
+                        </span>
+                        <span>
+                            <input type="radio" name="space" value="Vesterbro">
+                            <p>Vesterbro</p>
+                        </span>
+                        <span>
+                            <input type="radio" name="space" value="Nørrebro">
+                            <p>Nørrebro</p>
+                        </span>
+                        <span>
+                            <input type="radio" name="space" value="Hellerup/Charlottenlund">
+                            <p>Hellerup/Charlottenlund</p>
+                        </span>
                     </div>
                 </div>
-                <button type="submit">SEND</button>
-            </form>
+                <div class="extra-information">
+                    <textarea name="other-requirements" id="" cols="30" rows="20" placeholder="other requirements?" style="resize: none"></textarea>
+                </div>
+            </div>
+            <button type="submit">SEND</button>
+        </form>
     </section>
     <section class="process">
         <div class="point-container">
@@ -181,6 +181,12 @@
                     capacity for larger businesses,
                     We can help and find you a custom solution.
                 </div>
+                <div class="a-why">
+                    <h3>We are free</h3>
+                    There is no out of pocket fee for clients,
+                    the officehotel you sign with will pay the brokers fee.
+                    No fee, No commitment
+                </div>
             </div>
             <div class="column">
                 <div class="a-why">
@@ -193,12 +199,6 @@
                     <h3>We keep it personal</h3>
                     We have are in a time where everything is digitalised.
                     We keep the human touch
-                </div>
-                <div class="a-why">
-                    <h3>We are free</h3>
-                    There is no out of pocket fee for clients,
-                    the officehotel you sign with will pay the brokers fee.
-                    No fee, No commitment
                 </div>
             </div>
         </div>
