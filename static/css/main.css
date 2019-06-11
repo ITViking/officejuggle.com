@@ -487,3 +487,9 @@ h4 {
         font-size: 0.9em;
     }
 }
+
+@media only screen and (max-width: 1680) {
+    .introductory-box h1 {
+        font-size: 7.4em;
+    }
+}
