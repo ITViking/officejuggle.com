@@ -391,8 +391,8 @@ h4 {
 
 @media screen and (max-width: 420px) {
     .logo-container {
-        margin-top: -5em;
-        margin-left: 11em;
+        margin-top: -11em;
+        margin-left: 12em;
     }
 
     .logo-container h2{
