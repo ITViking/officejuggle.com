@@ -349,6 +349,46 @@ h4 {
     margin: 0;
 }
 
+@media screen and (max-width: 1680px) {
+    .introductory-box h1 {
+        font-size: 8em;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .introductory-box h1 {
+        font-size: 7em;
+    }
+
+    .logo-container {
+        margin-top: -9em;
+        margin-left: 70em;
+    }
+}
+
+
+@media screen and (max-width: 1199px) {
+    .introductory-box h1 {
+        font-size: 5.5em;
+    }
+
+    .logo-container {
+        margin-top: -12em;
+        margin-left: 55em;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .introductory-box h1 {
+        font-size: 4.6em;
+    }
+
+    .logo-container {
+        margin-top: -18em;
+        margin-left: 43em;
+    }
+}
+
 @media screen and (max-width: 420px) {
     .logo-container {
         margin-top: -5em;
@@ -495,8 +535,6 @@ h4 {
     }
 }
 
-@media screen and (max-width: 1680) {
-    .introductory-box h1 {
-        font-size: 7.4em;
-    }
-}
+
+
+
