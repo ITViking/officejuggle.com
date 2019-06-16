@@ -110,15 +110,18 @@ button:hover {
 }
 
 .dot1{
+    background-color: #d9d9d9;
     margin-bottom: 15px;
     margin-right: -10px;
 }
 
 .dot2 {
+    background-color: #a6a6a6;
     margin-bottom: 40px;
 }
 
 .dot3 {
+    background-color: #eff0f2;
     margin-top: 50px;
     margin-left: -20px;
 }
@@ -247,8 +250,8 @@ form {
 input.text-field {
     padding: 5px;
     margin: 10px;
-    height: 1.5em;
-    width: 220px;
+    height: 1.7em;
+    width: 250px;
     font-size: 1.2em;
     font-family: "Roboto";
 }
@@ -319,6 +322,10 @@ h3 {
     margin-bottom: 0px;
 }
 
+footer {
+    background: #f9f9f9;
+}
+
 .contact-information {
     display: flex;
     flex-direction: column;
@@ -342,7 +349,7 @@ h4 {
     margin: 0;
 }
 
-@media only screen and (max-width: 420px) {
+@media screen and (max-width: 420px) {
     .logo-container {
         margin-top: -5em;
         margin-left: 11em;
@@ -488,7 +495,7 @@ h4 {
     }
 }
 
-@media only screen and (max-width: 1681) {
+@media screen and (max-width: 1680) {
     .introductory-box h1 {
         font-size: 7.4em;
     }
