@@ -1,21 +1,26 @@
 {{ define "main" }}
     <section class="introduction">
         {{ $stairs := "images/stairs.jpg" | absURL }}
+        <div class="logo-container">
+            <div class="dots-container">
+                <span class="dot dot1"></span>
+                <span class="dot dot2"></span>
+                <span class="dot dot3"></span>
+            </div>
+            <h2>OFFICEJUGGLE</h2>
+        </div>
         <!-- <img class="stairs-image" src="{{ $stairs }}" alt="an architecht office with stairs in the foreground"> -->
         <div class="introductory-box">
-            <div class="yellow-line"></div>
             <h1>WE JUGGLE TO FIND</h1>
             <h1>YOU THE IDEAL OFFICE.</h1>
 
             <h2>We are officebrokers, here to make the seach for a new office easy</h2>
             <button onclick="window.location.href = '#lets-juggle';">LETS JUGGLE..</button>
-            <p>no cost no commitment</p>
         </div>
     </section>
     <section class="our-services">
         <div class="section-header">
-                <h2>OUR SERVICES</h2>
-                <p class="header-reflection">SERVICES</p>
+            <h2>OUR SERVICES</h2>
         </div>
         <div class="section-row">
             <div class="our-services-box">
@@ -44,76 +49,75 @@
         </div>
     </section>
     <section id="lets-juggle" class="lets-juggle">
-            <div class="section-header">
-                    <h2>LET'S JUGGLE...</h2>
-                    <p class="header-reflection">JUGGLE</p>
-            </div>
-            <form action="https://mailthis.to/philip.dein@gmail.com" method="post">
-                <div class="section-row">
-                    <div class="basis-information">
-                        <input class="text-field" type="text" name="text" placeholder="name">
-                        <input class="text-field" type="email" name="email" placeholder="email">
-                        <input class="text-field" type="text" name="company" placeholder="company">
-                        <input class="text-field" type="number" name="number" placeholder="no. of people">
+        <div class="section-header">
+            <h2>LET'S JUGGLE</h2>
+        </div>
+        <form action="https://mailthis.to/philip.dein@gmail.com" method="post">
+            <div class="section-row">
+                <div class="basis-information">
+                    <input class="text-field" type="text" name="text" placeholder="name">
+                    <input class="text-field" type="email" name="email" placeholder="email">
+                    <input class="text-field" type="text" name="company" placeholder="company">
+                    <input class="text-field" type="number" name="number" placeholder="no. of people">
+                </div>
+                <div class="section-column">
+                    <div class="location-information">
+                        <h2>Closed or open space</h2>
+                        <span>
+                            <input type="radio" name="space" value="Open space">
+                            <p>Open space</p>
+                        </span>
+                        <span>
+                            <input type="radio" name="space" value="Close office">
+                            <p>Closed office</p>
+                        </span>
+                        <span>
+                            <input type="radio" name="space" value="Let's find out">
+                            <p>Let's find out</p>
+                        </span>
+                            <!-- Redirect to a page after recaptcha -->
+                        <input type="hidden" name="_after" value="{{ .Site.BaseURL }}">
+                        <!-- Honeypot (to catch comment spam bots) -->
+                        <input type="hidden" name="_honeypot" value="">
                     </div>
-                    <div class="section-column">
-                        <div class="location-information">
-                            <h2>Closed or open space</h2>
-                            <span>
-                                <input type="radio" name="space" value="Open space">
-                                <p>Open space</p>
-                            </span>
-                            <span>
-                                <input type="radio" name="space" value="Close office">
-                                <p>Closed office</p>
-                            </span>
-                            <span>
-                                <input type="radio" name="space" value="Let's find out">
-                                <p>Let's find out</p>
-                            </span>
-                             <!-- Redirect to a page after recaptcha -->
-                            <input type="hidden" name="_after" value="{{ .Site.BaseURL }}">
-                            <!-- Honeypot (to catch comment spam bots) -->
-                            <input type="hidden" name="_honeypot" value="">
-                        </div>
-                        <div class="location-information">
-                            <h2>Closed or open space</h2>
-                            <span>
-                                <input type="radio" name="space" value="Kbh K">
-                                <p>Kbh K</p>
-                            </span>
-                            <span>
-                                <input type="radio" name="space" value="Amager">
-                                <p>Amager</p>
-                            </span>
-                            <span>
-                                <input type="radio" name="space" value="Valby">
-                                <p>Valby</p>
-                            </span>
-                            <span>
-                                <input type="radio" name="space" value="Østerbro/Norhavn">
-                                <p>Østerbro/Norhavn</p>
-                            </span>
-                            <span>
-                                <input type="radio" name="space" value="Vesterbro">
-                                <p>Vesterbro</p>
-                            </span>
-                            <span>
-                                <input type="radio" name="space" value="Nørrebro">
-                                <p>Nørrebro</p>
-                            </span>
-                            <span>
-                                <input type="radio" name="space" value="Hellerup/Charlottenlund">
-                                <p>Hellerup/Charlottenlund</p>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="extra-information">
-                        <textarea name="other-requirements" id="" cols="30" rows="20" placeholder="other requirements?" style="resize: none"></textarea>
+                    <div class="location-information">
+                        <h2>Closed or open space</h2>
+                        <span>
+                            <input type="radio" name="space" value="Kbh K">
+                            <p>Kbh K</p>
+                        </span>
+                        <span>
+                            <input type="radio" name="space" value="Amager">
+                            <p>Amager</p>
+                        </span>
+                        <span>
+                            <input type="radio" name="space" value="Valby">
+                            <p>Valby</p>
+                        </span>
+                        <span>
+                            <input type="radio" name="space" value="Østerbro/Norhavn">
+                            <p>Østerbro/Norhavn</p>
+                        </span>
+                        <span>
+                            <input type="radio" name="space" value="Vesterbro">
+                            <p>Vesterbro</p>
+                        </span>
+                        <span>
+                            <input type="radio" name="space" value="Nørrebro">
+                            <p>Nørrebro</p>
+                        </span>
+                        <span>
+                            <input type="radio" name="space" value="Hellerup/Charlottenlund">
+                            <p>Hellerup/Charlottenlund</p>
+                        </span>
                     </div>
                 </div>
-                <button type="submit">SEND</button>
-            </form>
+                <div class="extra-information">
+                    <textarea name="other-requirements" id="" cols="30" rows="20" placeholder="other requirements?" style="resize: none"></textarea>
+                </div>
+            </div>
+            <button type="submit">SEND</button>
+        </form>
     </section>
     <section class="process">
         <div class="point-container">
@@ -159,8 +163,7 @@
     </section>
     <section class="why">
         <div class="section-header">
-                <h2>WHY AN OFFICEBROKER?</h2>
-                <p class="header-reflection">WHY</p>
+                <h2>WHY USE AN OFFICEBROKER?</h2>
         </div>
         <div class="section-row">
             <div class="column">
@@ -177,6 +180,12 @@
                     capacity for larger businesses,
                     We can help and find you a custom solution.
                 </div>
+                <div class="a-why">
+                    <h3>We are free</h3>
+                    There is no out of pocket fee for clients,
+                    the officehotel you sign with will pay the brokers fee.
+                    No fee, No commitment
+                </div>
             </div>
             <div class="column">
                 <div class="a-why">
@@ -190,13 +199,12 @@
                     We have are in a time where everything is digitalised.
                     We keep the human touch
                 </div>
-                <div class="a-why">
-                    <h3>We are free</h3>
-                    There is no out of pocket fee for clients,
-                    the officehotel you sign with will pay the brokers fee.
-                    No fee, No commitment
-                </div>
             </div>
+        </div>
+    </section>
+    <section>
+        <div id="map">
+            <iframe width="100%" height="400px" frameborder="0" allowfullscreen src="https://umap.openstreetmap.fr/en/map/officejuggle_335263?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=null&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=null&onLoadPanel=undefined&captionBar=false&point=55.728886/12.576486"></iframe>
         </div>
     </section>
 {{ end }}
